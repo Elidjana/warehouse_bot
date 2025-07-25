@@ -1,7 +1,7 @@
 # warehouse_bot
 # 🏭 Warehouse Robot Simulation (Django + JavaScript)
 
-This project simulates a warehouse bot using a Django backend and JavaScript frontend. The robot moves through a grid to collect items based on color, avoiding other items using A* pathfinding.
+This ongoing project simulates a warehouse bot using a Django backend and JavaScript frontend. The robot moves through a grid to collect items based on color, avoiding other items using A* pathfinding.
 
 ## 🚀 Features
 

@@ -17,9 +17,9 @@ This ongoing project simulates a warehouse bot using a Django backend and JavaSc
 ## 📦 Project Structure
 
 ```
-warehouse_project/
+warehouse_bot/
 ├── manage.py
-├── warehouse_project/
+├── Bot_InWarehouse/
 │   └── settings.py
 ├── robot/
 │   ├── views.py

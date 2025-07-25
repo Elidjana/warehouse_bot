@@ -1,6 +1,6 @@
 import numpy as np
 import pygame
-from config import *
+from Bot_InWarehouse.robot.logic.config import *
 
 
 class Warehouse:

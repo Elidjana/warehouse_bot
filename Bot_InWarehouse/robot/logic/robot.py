@@ -1,5 +1,5 @@
 import pygame
-from config import *
+from Bot_InWarehouse.robot.logic.config import *
 
 
 class Robot:

@@ -1,11 +1,13 @@
 from .warehouse import Warehouse
 from .robot import Robot
 from .pathfinding import astar_with_blocks
+import os
 
 
 class WarehouseSimulator:
     def __init__(self):
-        self.reset("green")
+        default_color = os.getenv("DEFAULT_COLOR", "green")
+        self.reset(default_color)
 
     def reset(self, color):
         self.color = color

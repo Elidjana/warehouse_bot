@@ -1,12 +1,16 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from robot.logic.simulator import WarehouseSimulator
+from django.conf import settings
+
 
 simulator = WarehouseSimulator()
 
 
 def index(request):
-    return render(request, 'robot/index.html')
+    return render(request, 'robot/index.html', {
+        "default_color": os.getenv("DEFAULT_COLOR", "green")
+    })
 
 
 def start_sim(request):
